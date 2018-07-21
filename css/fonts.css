@@ -1,0 +1,27 @@
+@font-face {
+	font-family: Lato Black;
+	font-style: normal;
+	font-weight: normal;
+	src: url(../fonts/Lato Black.ttf)
+}
+
+@font-face {
+	font-family: Lato Bold;
+	font-style: normal;
+	font-weight: normal;
+	src: url(../fonts/Lato Bold.ttf)
+}
+
+@font-face {
+	font-family: Lato Regular;
+	font-style: normal;
+	font-weight: normal;
+	src: url(../fonts/Lato Regular.ttf)
+}
+
+@font-face {
+	font-family: Maven Pro Regular;
+	font-style: normal;
+	font-weight: normal;
+	src: url(../fonts/Maven Pro Regular.ttf)
+}

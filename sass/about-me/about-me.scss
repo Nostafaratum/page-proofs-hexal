@@ -1,0 +1,93 @@
+.about-me {
+	display: flex;
+	align-items: center;
+	background: #2eb398;
+	position: relative;
+
+	.container {
+		display: flex;
+		align-items: center;
+		margin: 5vh 11.6vw;
+	}
+
+	h2,h3,h4 {
+		margin-left: 10vw;
+	}
+
+	h3.propession {
+		
+		color: #20816d;
+	}
+
+	h4.about-author {
+		font-family: Lato Regular;
+		font-size: 12px;
+		color: #fff;
+	}
+	
+	ul.social {
+		display: flex;
+		justify-content: flex-end;
+
+		li {
+			display: inline;
+		}
+
+		a {
+			display: inline-block;
+			width: 25px;
+			height: 25px;
+			text-decoration: none;
+			background: url(../../img/icon-social-sprite.jpg) no-repeat;
+		}
+
+		a.ic-fb {
+			background-position: 0 -25px;
+		}
+		
+		a.ic-fb:hover {
+			background-position: 0 0;
+		}
+
+		a.ic-tw {
+			background-position: -25px -25px;
+		}
+
+		a.ic-tw:hover {
+			background-position: -25px 0;
+		}
+
+		a.ic-gp {
+			background-position: -50px -25px;
+		}
+
+		a.ic-gp:hover {
+			background-position: -50px 0;
+		}
+
+		a.ic-pi {
+			background-position: -75px -25px;
+		}
+
+		a.ic-pi:hover {
+			background-position: -75px 0;
+		}
+
+		a.ic-in {
+			background-position: -100px -25px;
+		}
+
+		a.ic-in:hover {
+			background-position: -100px 0;
+		}
+
+		a.ic-dr {
+			background-position: -125px -25px;
+		}
+
+		a.ic-dr:hover {
+			background-position: -125px 0;
+		}
+	}
+	
+}

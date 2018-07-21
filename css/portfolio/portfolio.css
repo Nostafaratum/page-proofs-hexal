@@ -1,0 +1,30 @@
+/* line 1, ../../sass/portfolio/portfolio.scss */
+.portfolio {
+  position: relative;
+  margin-top: 8vh;
+  margin-left: 2vw;
+}
+/* line 6, ../../sass/portfolio/portfolio.scss */
+.portfolio svg {
+  margin-right: 2vw;
+}
+/* line 10, ../../sass/portfolio/portfolio.scss */
+.portfolio .indentation {
+  margin-left: 9.6vw;
+}
+/* line 14, ../../sass/portfolio/portfolio.scss */
+.portfolio .first-row svg:last-child,
+.portfolio .second-row svg:last-child,
+.portfolio .third-row svg:last-child {
+  margin-right: 0;
+}
+/* line 20, ../../sass/portfolio/portfolio.scss */
+.portfolio .second-row {
+  position: relative;
+  bottom: 2vw;
+}
+/* line 25, ../../sass/portfolio/portfolio.scss */
+.portfolio .third-row {
+  position: relative;
+  bottom: 4vw;
+}

@@ -1,0 +1,92 @@
+/* line 1, ../../sass/about-me/about-me.scss */
+.about-me {
+  display: flex;
+  align-items: center;
+  background: #2eb398;
+  position: relative;
+}
+/* line 7, ../../sass/about-me/about-me.scss */
+.about-me .container {
+  display: flex;
+  align-items: center;
+  margin: 5vh 11.6vw;
+}
+/* line 13, ../../sass/about-me/about-me.scss */
+.about-me h2, .about-me h3, .about-me h4 {
+  margin-left: 10vw;
+}
+/* line 17, ../../sass/about-me/about-me.scss */
+.about-me h3.propession {
+  color: #20816d;
+}
+/* line 22, ../../sass/about-me/about-me.scss */
+.about-me h4.about-author {
+  font-family: Lato Regular;
+  font-size: 12px;
+  color: #fff;
+}
+/* line 28, ../../sass/about-me/about-me.scss */
+.about-me ul.social {
+  display: flex;
+  justify-content: flex-end;
+}
+/* line 32, ../../sass/about-me/about-me.scss */
+.about-me ul.social li {
+  display: inline;
+}
+/* line 36, ../../sass/about-me/about-me.scss */
+.about-me ul.social a {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  text-decoration: none;
+  background: url(../../img/icon-social-sprite.jpg) no-repeat;
+}
+/* line 44, ../../sass/about-me/about-me.scss */
+.about-me ul.social a.ic-fb {
+  background-position: 0 -25px;
+}
+/* line 48, ../../sass/about-me/about-me.scss */
+.about-me ul.social a.ic-fb:hover {
+  background-position: 0 0;
+}
+/* line 52, ../../sass/about-me/about-me.scss */
+.about-me ul.social a.ic-tw {
+  background-position: -25px -25px;
+}
+/* line 56, ../../sass/about-me/about-me.scss */
+.about-me ul.social a.ic-tw:hover {
+  background-position: -25px 0;
+}
+/* line 60, ../../sass/about-me/about-me.scss */
+.about-me ul.social a.ic-gp {
+  background-position: -50px -25px;
+}
+/* line 64, ../../sass/about-me/about-me.scss */
+.about-me ul.social a.ic-gp:hover {
+  background-position: -50px 0;
+}
+/* line 68, ../../sass/about-me/about-me.scss */
+.about-me ul.social a.ic-pi {
+  background-position: -75px -25px;
+}
+/* line 72, ../../sass/about-me/about-me.scss */
+.about-me ul.social a.ic-pi:hover {
+  background-position: -75px 0;
+}
+/* line 76, ../../sass/about-me/about-me.scss */
+.about-me ul.social a.ic-in {
+  background-position: -100px -25px;
+}
+/* line 80, ../../sass/about-me/about-me.scss */
+.about-me ul.social a.ic-in:hover {
+  background-position: -100px 0;
+}
+/* line 84, ../../sass/about-me/about-me.scss */
+.about-me ul.social a.ic-dr {
+  background-position: -125px -25px;
+}
+/* line 88, ../../sass/about-me/about-me.scss */
+.about-me ul.social a.ic-dr:hover {
+  background-position: -125px 0;
+}

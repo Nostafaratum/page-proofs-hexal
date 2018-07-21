@@ -1,0 +1,38 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 7vh;
+	background: #323232;
+
+	li {
+		display: inline;
+		margin: 0 2vw;
+	}
+	
+	img {
+		margin: 0 2vw;
+	}
+
+	a {
+		font-family: Lato Regular;
+	}
+
+	a:hover {
+		color: #2eaa91;
+	}
+}
+
+.header::after {
+	content: '';
+	position: absolute;
+ 	top: 6.8vh;
+	border: 50px solid transparent;
+	border-top: 25px solid #323232;
+}
+
+.button {
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+}

@@ -1,0 +1,29 @@
+.portfolio {
+    position: relative;
+    margin-top: 8vh;
+    margin-left: 2vw;
+    
+    svg {
+        margin-right: 2vw;
+    }
+    
+    .indentation {
+        margin-left: 9.6vw;
+    }
+
+    .first-row svg:last-child,
+    .second-row svg:last-child,
+    .third-row svg:last-child {
+        margin-right: 0;
+    }
+    
+    .second-row {
+        position: relative;
+        bottom: 2vw;
+    }
+
+    .third-row {
+        position: relative;
+        bottom: 4vw;
+    }
+}

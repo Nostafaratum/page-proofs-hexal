@@ -1,0 +1,15 @@
+/* line 1, ../../sass/footer/footer.scss */
+.footer {
+  display: flex;
+  align-items: center;
+  background: #222222;
+  position: relative;
+  min-height: 7vh;
+  padding-left: 5vw;
+}
+/* line 9, ../../sass/footer/footer.scss */
+.footer h4 {
+  font-family: Maven Pro Regular;
+  font-size: 12px;
+  color: #3c3c3c;
+}
